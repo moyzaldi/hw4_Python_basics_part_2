@@ -82,6 +82,8 @@ def test_find_suitable_user():
 # "Open Browser [Chrome]"
 
 """
+
+
 def test_readable_function():
     open_browser(browser_name="Chrome")
     go_to_companyname_homepage(page_url="https://companyname.com")

@@ -30,10 +30,8 @@ def test_dark_theme_by_time_and_user_choice():
             is_dark_theme = True
         else:
             is_dark_theme = False
-    elif dark_theme_enabled_by_user == True:
-        is_dark_theme = True
-    elif dark_theme_enabled_by_user == False:
-        is_dark_theme = False
+    else:
+        is_dark_theme = dark_theme_enabled_by_user
 
     assert is_dark_theme is True
 
